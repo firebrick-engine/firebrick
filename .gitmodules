@@ -1,0 +1,3 @@
+[submodule "ThirdParty/Kha"]
+	path = ThirdParty/Kha
+	url = https://github.com/Kode/Kha
