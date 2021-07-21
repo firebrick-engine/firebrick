@@ -7,7 +7,6 @@ Features
 -----------------------------------
 - Simple and easy to understand api
 - No external dependencies
-- Written using Haxe & C++
 - Cross-Platform:
     - Windows (Vulkan & OpenGL)
     - Mac OS (Metal & OpenGL)
