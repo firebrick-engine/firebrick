@@ -1,3 +1,5 @@
 -main Main
 -lib firebrick
--cpp temp
+-lib raylib-hx
+-js out.js
+# -hl out.hl

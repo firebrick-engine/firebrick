@@ -1,1 +1,4 @@
--cpp temp
+-lib raylib-hx
+-lib firebrick
+# -hl out.hl
+-js out.js

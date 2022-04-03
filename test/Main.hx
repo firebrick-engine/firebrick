@@ -1,15 +1,14 @@
-import fb.graphics.Graphics.Window;
+import fb.Window;
+import fb.App;
 
-class Main
-{
-    static function main()
-    {
-        var window:Window;
-        window = Window.Create(1280, 720, "", true);
-        while(!window.Closed)
-        {
-            window.BeginDrawing();
-            window.EndDrawing();
-        }
-    }
+class Main extends App {
+	override function preInit() {
+		Window.inst().width = 800;
+		Window.inst().height = 600;
+		Window.inst().title = "Firebrick";
+	}
+
+	static function main() {
+		new Main();
+	}
 }
